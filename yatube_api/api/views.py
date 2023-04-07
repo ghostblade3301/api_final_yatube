@@ -4,10 +4,9 @@ from rest_framework import filters, generics, permissions, viewsets
 from rest_framework.pagination import LimitOffsetPagination
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
 
+from posts.models import Follow, Group, Post
 from . import serializers
 from .permissions import IsAuthorOrReadOnly
-from posts.models import Post, Group, Follow
-
 
 User = get_user_model()
 
