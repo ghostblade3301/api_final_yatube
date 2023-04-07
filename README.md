@@ -9,6 +9,8 @@ Django 3.2.16
 
 Djangorestframework 3.12.4
 
+JWT + Djoser
+
 ## Installation
 1) Clone repostitory.
 ```
@@ -52,3 +54,6 @@ or
 | api/v1/posts/{post_id}/comments/	| GET, POST | Get post's comments, create comment |
 | api/v1/posts/{post_id}/comments/{comment_id}/	| GET, PUT, PATCH, DELETE | Get, replace, change/update, delete comment |
 | api/v1/api-token-auth/ | POST | Get login by POST'in login and password |
+
+# Documentation
+Url `http://127.0.0.1:8000/redoc/`
